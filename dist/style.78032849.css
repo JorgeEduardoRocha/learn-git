@@ -1,0 +1,130 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #EEE;
+}
+
+/* centramos el titulo h1 */
+center {
+  text-align: center;
+}
+
+
+.button {
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+
+header{
+    position: relative;
+    float: left;
+    width: 100%;
+    background: #222;
+    color: #FFF;
+    font-size: 14pt;
+    padding: 10px;
+}
+#content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.window{
+    position: relative;
+    width: 50%;
+    margin-top: 20px;
+    background: #FFF;
+    border: 1px solid
+}
+.window h1{
+    display: block;
+    width: calc(100% - 10px);
+    margin: 0px;
+    padding: 10px 0px 10px 10px;
+    background: #555;
+    color: #CCC;
+    font-size: 12pt;
+    font-weight: normal;
+}
+.windowlabel{
+    display: block;
+    margin: 10px 0px 0px 0px;
+    color: #777;
+    font-size: 12pt;
+}
+.window input{
+    width: calc(100% - 42px);
+}
+ .window select{
+    width: calc(100% - 22px);
+}
+
+
+
+.window input, .window select{
+    width: calc(100% - 42px);
+    margin: 10px;
+    padding: 10px;
+    font-size: 12pt;
+    color: #555;
+    border: 1px solid #CCC;
+}
+.window input:focus{
+    background: #FFFDE7;
+}
+.windowerrorlabel{
+    display: block;
+    width: calc(100% - 42px);
+    margin: 10px;
+    padding: 10px;
+    background: #EF9A9A;
+    color: #C62828;
+    border: 1PX solid #C62828;
+    font-size: 12pt;
+}
+.windowbuttons{
+    position: relative;
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.windowbutton, .windowprimarybutton{
+    padding: 10px 20px 10px 20px;
+    margin:  10px auto 10px auto;
+    background: #43A047;
+    border: 1px solid #2E7D32;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 12pt;
+    cursor: pointer;
+}
+.windowbutton{
+    background: #DDD;
+    border: 1px solid #BBB;
+    flex-grow:1;
+}
+.windowprimarybutton{
+    background: #43A047;
+    border: 1px solid #2E7D32;
+    flex-grow: 2;
+}
+.windowbutton:hover{
+    background: #81D4FA;
+    border: 1px solid #B3E5FC;
+}
+.windowprimarybutton:hover{
+    background: #0D47A1;
+    border: 1px solid #1565C0;
+}
+
+
+/*# sourceMappingURL=/style.78032849.css.map */
